@@ -33,7 +33,7 @@
 <br/>
 
 ### using php with ajax
-> **_URL:_** http://localhost/api/searchpage
+> **_URL:_** http://localhost/api/user/content/category/list
 > <br><br>
 > **_PHP POST CODE EXAMPLE:_** <br>
 > $data = $_POST["object_name"]; <br>
