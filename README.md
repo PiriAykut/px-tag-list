@@ -33,14 +33,9 @@
 <br/>
 
 ### using php with ajax
-> **_URL:_** http://localhost/api/user/content/category/list
-> <br><br>
 > **_PHP POST CODE EXAMPLE:_** <br>
 > $data = $_POST["object_name"]; <br>
 > $resultdata = json_decode($data); <br><br>
-> ... "your php codes" ...<br>
-> $resultdata = [['id' => 1, 'text' => 'data 1' ], ... ];<br>
-> echo json_encode($resultdata);<br>
 <br>
 
 
