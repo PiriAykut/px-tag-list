@@ -1,0 +1,200 @@
+.px-tag-list {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow: auto; */
+}
+
+.px-tag-list .btn-px-tag-modal {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #dee2e6;
+    border: 1px solid #cdcdcd;
+    padding: 0px 0 10px 0px;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    line-height: 0px;
+    border-radius: 4px;
+}
+
+.px-tag-list .px-tag-modal-bottom {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #00000093;
+    z-index: 99998;
+}
+
+.px-tag-list .px-tag-modal-bottom .px-tag-modal {
+    position: fixed;
+    width: 400px;
+    height: 450px;
+    z-index: 99999;
+    background: #fff;
+    left: calc(50% - 200px);
+    top: calc(50vh - 225px);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.px-tag-list .px-tag-modal-bottom .px-tag-modal .filter {
+    display: block;
+    width: 100%;
+    padding: 2px 10px;
+    margin-bottom: 5px;
+    border: 1px solid #888c90;
+    border-radius: 4px;
+}
+
+.px-tag-list .px-tag-modal-bottom .px-tag-modal ul {
+    display: block;
+    width: 100%;
+    height: calc(100% - 85px);
+    border: 1px solid #cdcdcd;
+    background: #f4f4f7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 8px;
+    overflow-y: auto;
+}
+
+.px-tag-list .px-tag-modal-bottom .px-tag-modal button {
+    display: inline-block;
+    width: calc(50% - 8px);
+    background: #dddfe4;
+    border: 1px solid #84878f;
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.px-tag-list .px-tag-modal-bottom .px-tag-modal button.approve {
+    margin-right: 10px;
+
+}
+
+.px-tag-list .px-tag-modal-bottom .px-tag-modal button:hover {
+    background: #c0c4ce;
+}
+
+.px-tag-list ul.tag-list {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.px-tag-list ul.tag-list li {
+    display: inline-block;
+    margin: 3px;
+
+}
+
+.px-tag-list ul.tag-list li.px-alert .tag {
+    border-color: red;
+
+}
+
+.px-tag-list ul.tag-list li .tag {
+    display: inline-block;
+    position: relative;
+    padding: 2px 25px 4px 8px;
+    background: #f7f7f7;
+    border-radius: 6px;
+    border: 1px solid #e2e5ed;
+    font-size: 14px;
+}
+
+.px-tag-list ul.tag-list li .tag span {
+    line-height: 15px;
+}
+
+.px-tag-list ul.tag-list li .tag i {
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    width: 13px;
+    height: 13px;
+    margin-top: -7px;
+    font-style: normal;
+    font-family: monospace;
+    font-weight: 100;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 11px;
+    font-size: 12px;
+    background: #eeeeef;
+    border: 1px solid #cdcdcd;
+}
+
+.px-tag-list ul.tag-list li .tag i:hover {
+    cursor: pointer;
+    background: #ceced4;
+}
+
+.px-tag-list ul.tag-list li input {
+    display: inline-block;
+    padding: 5px 3px;
+    width: 30px;
+    border: none;
+    outline: none !important;
+}
+
+.px-tag-list ul.tag-list li input:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+.px-tag-list ul.data-list {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid #dee2e6;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99;
+    max-height: 150px;
+    overflow: auto;
+    overflow-x: hidden;
+    /*-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75); */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.px-tag-list ul.data-list li {
+    display: list-item;
+    width: calc(100% - 5px);
+    max-width: 300px;
+    min-width: 150px;
+    padding: 4px 5px;
+    border-bottom: 1px solid #e2e5ed;
+
+}
+
+.px-tag-list ul.data-list li:last-child {
+    border: none
+}
+
+.px-tag-list ul.data-list li:hover,
+.px-tag-list ul.data-list li:focus {
+    cursor: pointer;
+    background: #d4e9fa;
+    outline: none;
+    border: none;
+}
