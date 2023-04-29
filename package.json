@@ -1,0 +1,27 @@
+{
+  "name": "px-tag-list",
+  "version": "1.0.1",
+  "description": "It is used to add a label (tag). Dynamic data can be retrieved with Ajax, Javascript data can be used or data-independent user input tags can be added. With the modal feature, ready data can be searched on a larger screen. Autocomplate is used when writing tags. it doesn't add the previously added tag again!",
+  "main": "px-tag-list",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiriAykut/px-tag-list.git"
+  },
+  "keywords": [
+    "px",
+    "tag",
+    "label",
+    "jquery",
+    "input",
+    "list"
+  ],
+  "author": "Piri AYKUT <piriaykut@gmail.com, piriaykut@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PiriAykut/px-tag-list/issues"
+  },
+  "homepage": "https://github.com/PiriAykut/px-tag-list#readme"
+}
