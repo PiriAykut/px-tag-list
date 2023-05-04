@@ -1,3 +1,17 @@
+### description
+> It is used to add a label (tag) or category. 
+> Dynamic data can be retrieved with Ajax, Javascript data can be used or data-independent user input tags can be added. 
+> With the modal feature, ready sections can be searched on a larger screen, combined and selected ones can be added.
+> Autocomplate is used when writing tags. 
+> it doesn't add the previously added tag again!
+
+
+### description TR
+> Etiket veya kategori eklemek için kullanılır.
+> Ajax ile dinamik veriler alınabilir, Javascript verileri kullanılabilir veya veriden bağımsız kullanıcı giriş etiketleri eklenebilir.
+> Modal özelliği ile hazır veriler daha geniş ekranda aranabilir, seçilebilir ve seçilenler eklenebilir.
+> Etiketleri yazarken otomatik arama ve tamamla (autocomplate) kullanılır.
+> Daha önce eklenmiş etiketi tekrar eklemez!
 
 ## install
 > npm i jquery <br><br>
@@ -37,15 +51,6 @@
 > $data = $_POST["object_name"]; <br>
 > $resultdata = json_decode($data); <br><br>
 <br>
-
-
-### description
-> It is used to add a label (tag). 
-> Dynamic data can be retrieved with Ajax, Javascript data can be used or data-independent user input tags can be added. 
-> With the modal feature, ready data can be searched on a larger screen. 
-> Autocomplate is used when writing tags. 
-> it doesn't add the previously added tag again!
-
 
 ### view:
 #### 1.
