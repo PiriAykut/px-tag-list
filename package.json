@@ -1,6 +1,6 @@
 {
   "name": "px-tag-list",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "It is used to add a label (tag). Dynamic data can be retrieved with Ajax, Javascript data can be used or data-independent user input tags can be added. With the modal feature, ready data can be searched on a larger screen. Autocomplate is used when writing tags. it doesn't add the previously added tag again!",
   "main": "px-tag-list",
   "scripts": {
