@@ -76,12 +76,10 @@
         }
 
         if (options.data != null && typeof options.data == "string") {
-            if (options.data == null) options.data = null; else {
+            if (options.data == null || options.data == "") {
+                options.data = null;
+            } else {
                 options.data = JSON.parse(options.data);
-
-                if (typeof options.data == "string") {
-                    options.data = JSON.parse(options.data);
-                }
             }
         }
 
