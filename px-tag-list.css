@@ -112,7 +112,7 @@
     display: inline-block;
     position: relative;
     padding: 2px 30px 5px 10px;
-    background: #f7f7f7;
+    background: #f8f8f9;
     border-radius: 8px;
     border: 1px solid #cfd2d8;
     font-size: 13px;
@@ -126,15 +126,16 @@
     position: absolute;
     right: 5px;
     top: 50%;
-    width: 13px;
-    height: 13px;
-    margin-top: -7px;
+    width: 15px;
+    height: 15px;
+    padding: 1px 2px;
+    margin-top: -8px;
     font-style: normal;
     font-family: monospace;
     font-weight: 100;
     border-radius: 50%;
     text-align: center;
-    line-height: 11px;
+    line-height: 10px;
     font-size: 12px;
     background: #eeeeef;
     border: 1px solid #cdcdcd;
@@ -142,7 +143,8 @@
 
 .px-tag-list ul.tag-list li .tag i:hover {
     cursor: pointer;
-    background: #ceced4;
+    background: #646464;
+    color: #fff;
 }
 
 .px-tag-list ul.tag-list li input {
