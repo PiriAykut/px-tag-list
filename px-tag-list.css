@@ -111,11 +111,11 @@
 .px-tag-list ul.tag-list li .tag {
     display: inline-block;
     position: relative;
-    padding: 4px 27px 5px 13px;
+    padding: 2px 30px 5px 10px;
     background: #f7f7f7;
-    border-radius: 22px;
+    border-radius: 8px;
     border: 1px solid #cfd2d8;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .px-tag-list ul.tag-list li .tag span {

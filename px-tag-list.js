@@ -334,6 +334,7 @@
         }
 
         function addTag(_dataid, _datatext, _datalist = false) {
+            if (_datatext == null || _datatext.trim() == "") return;
             _datatext = _datatext.trim();
 
             if (!options.addnew && !_datalist) {
@@ -341,8 +342,6 @@
 
                 return;
             }
-
-            if (_datatext == "") return;
 
             let _controlObj = null;
             $(_id + "ul.tag-list li .tag").each(function () {
