@@ -169,7 +169,7 @@
 
                     addTag(0, $(_id + "ul.tag-list li input").val());
 
-                    closeDataList();
+                    closeDataList(false);
                 }, 500);
             })
             .on("click", _id + "ul.tag-list li i", function () {
@@ -329,8 +329,12 @@
 
         }
 
-        function closeDataList() {
+        function closeDataList(_inputfocus = true) {
             $(_id + "ul.data-list").html("").css("display", "none");
+
+            if (_inputfocus) {
+                $(_id + "ul.tag-list li input").focus();
+            }
         }
 
         function addTag(_dataid, _datatext, _datalist = false) {
