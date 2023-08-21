@@ -333,7 +333,9 @@
             $(_id + "ul.data-list").html("").css("display", "none");
 
             if (_inputfocus) {
-                $(_id + "ul.tag-list li input").focus();
+                setTimeout(() => {
+                    $(_id + "ul.tag-list li input").focus();
+                }, 100);
             }
         }
 
